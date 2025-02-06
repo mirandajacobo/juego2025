@@ -1,3 +1,27 @@
 .div-tablero {
-    background-color: royalblue;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-tableros1{
+    display: grid;
+    grid-template-columns: repeat(8, 10rem);
+    grid-template-rows: repeat(8, 10rem);
+    height: 3rem;
+    gap: 1rem; 
+    padding: -5rem, -6rem;
+
+ 
+}
+.div-item{
+    border: 1px solid black;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
